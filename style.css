@@ -1,0 +1,140 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:rgb(232, 232, 232);
+    overflow: hidden;
+    opacity: 100%;
+  }
+  .logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #aa1204;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #aa1204;
+    color: whitesmoke;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #aa1204;
+    color: white;
+  }
+.Booking-form-box
+{
+max-width: 350px;
+border: 1px solid #ced4da;
+margin: 10% auto 0;
+border-radius: 5px;
+}
+
+.radio-btn
+{
+margin: 0 20px;
+}
+
+.radio-btn .btn 
+{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+
+.radio-btn .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+
+}
+
+.radio-btn .btn:checked::after
+{
+content: '';
+background-color: red;
+transition: 0.5s;
+}
+
+.radio-btn span 
+{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.booking-form
+{
+    padding: 0 20px 20px;
+
+}
+.booking-form label
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+input::placeholder
+{
+    color: #fff !important;
+
+}
+.input-grp
+{
+    width: 151px;
+    display: inline-block;
+}
+.form-control
+{
+    font-size: 18px !important;
+    border-radius: 25 !important;
+    color: #fff !important;
+    background: transparent !important;
+    box-shadow: none;
+    border: 1px solid whitesmoke !important;
+}
+.select-date::-webkit-calender-picker-indicator
+{
+background-color: white !important;
+}
+
+.custom-select
+{
+    color: #fff !important;
+    font-size: 14px !important;
+    border: 1px solid whitesmoke !important;
+    box-shadow: none;
+    border-radius: 5px !important;
+    background: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
